@@ -17,6 +17,7 @@ def fn(x, y):
     return x * 10 + y
 
 
+
 print(reduce(fn, map(char2num, '13579')))
 
 print(list(map(char2num, '13579')))
