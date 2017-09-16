@@ -8,9 +8,9 @@ def my_abs(x):
         return -x
 
 
-# print(my_abs(10))
+print(my_abs(-910))
 
-# print(isinstance("String", Iterable))
+print(isinstance("String", Iterable))
 
 listStr = list(range(1, 11))
 print(listStr)
