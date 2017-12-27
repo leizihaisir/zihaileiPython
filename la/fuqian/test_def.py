@@ -1,3 +1,4 @@
+# x的n次方
 def power(x, n=2):
     s = 1
     while n > 0:
@@ -6,4 +7,4 @@ def power(x, n=2):
     return s
 
 
-print(power(5, 2))
+print(power(5, 3))

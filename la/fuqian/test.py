@@ -13,6 +13,8 @@ print(my_abs(-910))
 print(isinstance("String", Iterable))
 
 listStr = list(range(1, 11))
+listStr.append(11)
+print("listStr的length：", len(listStr))
 print(listStr)
 print("切前五个", listStr[0:5], "数组")
 var_list = ['tom', 'david', 'john']
